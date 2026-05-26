@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: #03002d;
+}
+
+.logoLetter {
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: none;
+  background-color: #03002d;
+  height: 0.5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #03002d;
+}
+
+p {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: large;
+  color: #03002d;
+}
+
+.start {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.hero-media {
+  margin-top: 40px;
+}
+
+.problems {
+  margin-top: 200px;
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #03002d;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.card {
+  display: inline-block;
+  background-color: rgb(215, 234, 250);
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  min-width: 250px;
+  line-height: 10px;
+
+  color:#03002d;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #03002d;
+}
+
+.features {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.funcTitle {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #03002d;
+}
+
+.funcFeature {
+  margin-top: 60px;
+}
+
+.reviews {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.card small {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.price {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #03002d;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 200px;
+  background-color: rgb(215, 234, 250);
+}
+
+.ctaStart {
+  display: inline-block;
+  padding: 40px;
+}
+
+.foot {
+  display: flex;            /* 1. Flexboxを使う合図 */
+  flex-direction: column;   /* 2. 中身を「縦並び」にする魔法 */
+  align-items: center;      /* 3. 縦に並んだ中身を「横軸の中央」に揃える魔法 */
+}
+
+.logo {
+  width: 300px;
+}
+

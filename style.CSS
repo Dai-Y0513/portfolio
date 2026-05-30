@@ -183,8 +183,9 @@ h2 {
 
 .cta {
   text-align: center;
-  margin-top: 400px;
-  margin-bottom: 400px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 300px;
   background-color: rgb(215, 234, 250);
 }
 
@@ -194,9 +195,9 @@ h2 {
 }
 
 .foot {
-  display: flex;            /* 1. Flexboxを使う合図 */
-  flex-direction: column;   /* 2. 中身を「縦並び」にする魔法 */
-  align-items: center;      /* 3. 縦に並んだ中身を「横軸の中央」に揃える魔法 */
+  display: flex;  
+  flex-direction: column;
+  align-items: center; 
 }
 
 .logo {

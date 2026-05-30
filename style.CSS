@@ -118,7 +118,7 @@ h2 {
   align-items: center;
   padding: 80px;
   background-color: #feffbf;
-  gap: 100px;
+  justify-content: space-around;
 }
 
 .question {
@@ -127,7 +127,7 @@ h2 {
   align-items: center;
   padding: 80px;
   background-color: #fcc9c9;
-  gap: 100px;
+  justify-content: space-around;
 }
 
 .schedule {
@@ -136,7 +136,7 @@ h2 {
   align-items: center;
   padding: 80px;
   background-color: #c9fcc8;
-  gap: 100px;
+  justify-content: space-around;
 }
 
 .funcTitle {

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+body {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+  color: #03002d;
+}
+
 .header {
   display:flex;
   justify-content: space-between;
@@ -15,10 +20,8 @@
 
 .nav a {
   text-decoration: none;
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: large;
-  color: #03002d;
 }
 
 .logoLetter {
@@ -42,17 +45,13 @@ hr {
 }
 
 h1 {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 40px;
-  color: #03002d;
 }
 
 p {
-  font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: large;
-  color: #03002d;
+  font-size: 18px;
 }
 
 .start {
@@ -76,10 +75,8 @@ p {
 }
 
 h2 {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 30px;
-  color: #03002d;
 }
 
 .cards {
@@ -100,11 +97,8 @@ h2 {
   min-width: 250px;
   line-height: 10px;
 
-  color:#03002d;
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  color: #03002d;
 }
 
 .features {
@@ -112,38 +106,29 @@ h2 {
   margin-top: 200px;
 }
 
-.autoPlan {
+.funcBlock {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 80px;
   gap: 30px;
+}
+
+.autoPlan {
   background-color: #feffbf;
 }
 
 .question {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 80px;
-  gap: 30px;
   background-color: #fcc9c9;
 }
 
 .schedule {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 80px;
-  gap: 30px;
   background-color: #c9fcc8;
 }
 
 .funcTitle {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  color: #03002d;
 }
 
 .funcFeature {
@@ -155,7 +140,8 @@ h2 {
 }
 
 .funcGuide {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 
@@ -175,10 +161,8 @@ h2 {
 }
 
 .price {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 30px;
-  color: #03002d;
 }
 
 .cta {
@@ -187,6 +171,11 @@ h2 {
   margin-bottom: 85px;
   padding: 90px;
   background-color: rgb(215, 234, 250);
+}
+
+.ctaMain {
+  font-weight: 500;
+  font-size: 40px;
 }
 
 .ctaStart {

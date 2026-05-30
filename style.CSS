@@ -114,29 +114,26 @@ h2 {
 
 .autoPlan {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 80px;
   background-color: #feffbf;
-  justify-content: space-around;
 }
 
 .question {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 80px;
   background-color: #fcc9c9;
-  justify-content: space-around;
 }
 
 .schedule {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 80px;
   background-color: #c9fcc8;
-  justify-content: space-around;
 }
 
 .funcTitle {

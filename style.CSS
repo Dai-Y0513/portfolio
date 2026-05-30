@@ -117,6 +117,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   padding: 80px;
+  gap: 30px;
   background-color: #feffbf;
 }
 
@@ -125,6 +126,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   padding: 80px;
+  gap: 30px;
   background-color: #fcc9c9;
 }
 
@@ -133,6 +135,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   padding: 80px;
+  gap: 30px;
   background-color: #c9fcc8;
 }
 

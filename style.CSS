@@ -151,6 +151,11 @@ h2 {
   width: 500px;
 }
 
+.funcGuide {
+  display: block;
+  gap: 40px;
+}
+
 .reviews {
   text-align: center;
   margin-top: 200px;

@@ -183,7 +183,9 @@ h2 {
 
 .cta {
   text-align: center;
-  padding: 300px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 200px;
   background-color: rgb(215, 234, 250);
 }
 

@@ -152,7 +152,7 @@ h2 {
 }
 
 .funcGuide {
-  display: block;
+  display: inline-block;
   gap: 40px;
 }
 

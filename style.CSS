@@ -112,6 +112,30 @@ h2 {
   margin-top: 200px;
 }
 
+.autoPlan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #feffbf;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #fcc9c9;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #c9fcc8;
+}
+
 .funcTitle {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
@@ -121,6 +145,10 @@ h2 {
 
 .funcFeature {
   margin-top: 60px;
+}
+
+.funcImage {
+  width: 500px;
 }
 
 .reviews {
